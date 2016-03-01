@@ -1,7 +1,18 @@
 These are my solutions to the codility exercises (https://codility.com)
 
+## Install
+
+    npm install
+
+## Run the tests
+This runs the tests with a watch statement
+
+    npm test
+
+## Exercises
+
 ### Lesson 1 - Iterations
-- **UNSOLVED** BinaryGap
+- BinaryGap
 
 ### Lesson 2 - Arrays
 - **UNSOLVED** CyclicRotation

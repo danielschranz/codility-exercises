@@ -1,6 +1,6 @@
 "use strict";
 
-export function solution(seq, starts, ends) {
+export default function genomicRangeQuery(seq, starts, ends) {
 
     // these sets will contain a running count how often that element appeared in all the indices up to the
     // current one - the indices are offset by one so I can always start with a count of 0
