@@ -15,7 +15,7 @@ This runs the tests with a watch statement
 - BinaryGap
 
 ### Lesson 2 - Arrays
-- **UNSOLVED** CyclicRotation
+- CyclicRotation
 - **UNSOLVED** OddOccurrencesInArray
 
 ### Lesson 3 - Time Complexity

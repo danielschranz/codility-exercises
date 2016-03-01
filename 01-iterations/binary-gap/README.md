@@ -16,13 +16,13 @@ Return the length of the longest sequence of 0s that is enclosed by 1s in the bi
 
 Write a function:
 
-int solution(int N);
+function solution(N);
 
 ## Assumptions
 
-N is an integer within the range [1..2,147,483,647].
+- N is an integer within the range [1..2,147,483,647].
 
 ## Complexity
 
-expected worst-case time complexity is O(log(N));
-expected worst-case space complexity is O(1).
+- expected worst-case time complexity is O(log(N));
+- expected worst-case space complexity is O(1).

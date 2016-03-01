@@ -1,7 +1,5 @@
 "use strict";
 
-import * as _ from 'lodash';
-
 export default function binaryGap(N) {
     var binary = N.toString(2);
 

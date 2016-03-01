@@ -36,11 +36,13 @@ that returns an array of integers representing the answers as described above.
 
 ## Assumptions
 
-The DNA sequence is a non-empty string of 1 to 100,000 characters and will only contain the letters A, C, G or T
-The number of queries to process is 1 to 50,000
-The queries will only contain valid indices into the DNA sequence and the start index is always smaller or equal to the end index
+- The DNA sequence is a non-empty string of 1 to 100,000 characters and will only contain the letters A, C, G or T
+- The number of queries to process is 1 to 50,000
+- The queries will only contain valid indices into the DNA sequence and the start index is always smaller or equal to the end index
 
 ## Complexity
-expected worst-case time complexity is O(N+M);
-expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
+
+- expected worst-case time complexity is O(N+M);
+- expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
+
 Elements of input arrays can be modified.
