@@ -16,7 +16,7 @@ This runs the tests with a watch statement
 
 ### Lesson 2 - Arrays
 - CyclicRotation
-- **UNSOLVED** OddOccurrencesInArray
+- OddOccurrencesInArray
 
 ### Lesson 3 - Time Complexity
 - **UNSOLVED** TapeEquilibrium
