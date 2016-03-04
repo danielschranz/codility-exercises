@@ -3,12 +3,21 @@
 import {expect} from 'chai';
 
 import tapeEquilibrium from '../03-timecomplexity/tape-equilibrium/code';
+import frogJmp from '../03-timecomplexity/frog-jmp/code';
 
 describe('Lesson 03 - time complexity', function () {
 
-    xdescribe('Frog Jmp', function () {
+    describe('Frog Jmp', function () {
         it('works for the examples in the exercise specification', function () {
-            expect(tapeEquilibrium([9, 3, 9, 3, 9, 7, 9])).to.equal(7);
+            expect(frogJmp(10, 85, 30)).to.equal(3);
+        });
+
+        it('works correctly if you hit the target position exactly', function () {
+            expect(frogJmp(10, 70, 30)).to.equal(2);
+        });
+
+        it('returns 0 if start and target position are the same', function () {
+            expect(frogJmp(10, 10, 30)).to.equal(2);
         });
     });
 
