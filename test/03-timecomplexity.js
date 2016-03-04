@@ -17,7 +17,7 @@ describe('Lesson 03 - time complexity', function () {
         });
 
         it('returns 0 if start and target position are the same', function () {
-            expect(frogJmp(10, 10, 30)).to.equal(2);
+            expect(frogJmp(10, 10, 30)).to.equal(0);
         });
     });
 
