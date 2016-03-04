@@ -19,8 +19,8 @@ This runs the tests with a watch statement
 - OddOccurrencesInArray
 
 ### Lesson 3 - Time Complexity
-- **UNSOLVED** TapeEquilibrium
 - **UNSOLVED** FrogJmp
+- TapeEquilibrium
 - **UNSOLVED** PermMissingElem
 
 ### Lesson 4 - Counting Elements
