@@ -21,7 +21,7 @@ This runs the tests with a watch statement
 ### Lesson 3 - Time Complexity
 - FrogJmp
 - TapeEquilibrium
-- **UNSOLVED** PermMissingElem
+- PermMissingElem
 
 ### Lesson 4 - Counting Elements
 - **UNSOLVED** PermCheck

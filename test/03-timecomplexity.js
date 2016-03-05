@@ -4,6 +4,7 @@ import {expect} from 'chai';
 
 import tapeEquilibrium from '../03-timecomplexity/tape-equilibrium/code';
 import frogJmp from '../03-timecomplexity/frog-jmp/code';
+import permMissingElement from '../03-timecomplexity/perm-missing-element/code';
 
 describe('Lesson 03 - time complexity', function () {
 
@@ -31,14 +32,10 @@ describe('Lesson 03 - time complexity', function () {
         });
     });
 
-    xdescribe('PermMissingElement', function () {
+    describe('PermMissingElement', function () {
         it('works for the examples in the exercise specification', function () {
-            expect(tapeEquilibrium([9, 3, 9, 3, 9, 7, 9])).to.equal(7);
+            expect(permMissingElement([2, 3, 1, 5])).to.equal(4);
         });
-
-        it('works when the last element is the one we \'re looking for', function () {
-            expect(tapeEquilibrium([2, 2, 3, 3, 4])).to.equal(4);
-        })
 
     });
 });
