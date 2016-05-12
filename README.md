@@ -24,7 +24,7 @@ This runs the tests with a watch statement
 - PermMissingElem
 
 ### Lesson 4 - Counting Elements
-- **UNSOLVED** PermCheck
+- PermCheck
 - **UNSOLVED** FrogRiverOne
 - **UNSOLVED** MissingInteger
 - **UNSOLVED** MaxCounters
